@@ -24,13 +24,25 @@ p{
 #header-image{
     top: 10px;
     position: relative;
-    width: 100%;
+    width: 50%;
     margin: none;
     padding: none;
-    background-size: cover;
+    background-size: 100%;
 }
 
 #top-header li{
     display: inline;
     padding: 5rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    background: grey;
+
+}
+
+#header-logo{
+
 }
