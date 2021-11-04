@@ -20,14 +20,8 @@ h3{
     border-radius: 5px;
 }
 
-
-#header-image{
-    top: 10px;
-    position: relative;
-    width: 50%;
-    margin: none;
-    padding: none;
-    background-size: 100%;
+#header-logo{
+    padding: 10px;
 }
 
 #top-header li{
@@ -39,12 +33,20 @@ h3{
 .nav__links{
     list-style-type: none;
     margin: 5px;
-    padding: 10px;
-    background: grey;
-    text-decoration: none;
-    width: 500px;
+    padding: 0px;
+    width: 700px;
 }
 
-#header-logo{
-    padding: 10px;
+.nav__links a{
+    text-decoration: none;
+    align-items: center;
+}
+
+#hero-image{
+    top: 5px;
+    position: relative;
+    width: 50%;
+    margin: 10px;
+    padding: 100px 0px 0px 100px;
+    background-size: 100%;
 }
