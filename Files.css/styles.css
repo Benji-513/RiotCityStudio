@@ -23,7 +23,7 @@ h3{
 /* Hamburger menu styles */
 .topnav {
     overflow: hidden;
-    background-color: rgb(221, 0, 0);
+    background-color: white;
     position: relative;
   }
   
@@ -54,7 +54,7 @@ h3{
 }
   
 .active {
-    background-color: rgb(221, 0, 0);
+    background-color:white;
     color: white;
 }
 
@@ -64,4 +64,30 @@ h3{
     width: 50%;
     justify-content: center;
 }
+ /*Card container styles*/
+.container{
+    display: flex;
+    justify-content: center;
+}
 
+.card{
+    background:white;
+    width: 320px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
