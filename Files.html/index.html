@@ -8,26 +8,42 @@
     <link rel="stylesheet" href="../files.css/medium.css" />
     <link rel="stylesheet" href="../files.css/large.css" />
     <link rel="stylesheet" href="../files.css/styles.css" />
+    <link rel="shortcut icon" href="../project images/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Riot City Studio</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+    </style>
 </head>
+
 
 <body>
     <header>
-        <div id="top-header">
-            <img src="../project images/logo-black.png" alt="RCS-logo" style="float: left;">
-            <nav>
-                <ul class="nav__links">
-                    <li class="active"><a href="#">About Us</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            
-        </div>
-            <section id="hero-image">
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active"><img src="../project images/logo-black.png" alt="RCS-logo" style="float: left;"> </a>
+
+    <!-- Navigation links (hidden by default) -->
+<div id="myLinks">
+      <a href="#news">Pricing</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#about">About Us</a>
+    </div>
+    
+    <!-- "Hamburger menu" JS to toggle the nav links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    
+   <!--Header image and image text-->
+     <!--   </div>
+            <section class="hero-image">
                 <img src="../project images/cincinnati.skyline.jpg" alt="cincinnati-skyline">
             </section>
-        </div>
+        </div>-->
 
         <h1>Riot City Studio</h1>
         <h3>"Where Sound Is Perfected"</h3>
@@ -35,7 +51,29 @@
     </header>
 
     <main>
-        
+        <p class="about">About US
+            <br>
+            <br>
+            From humble beginnings, starting in a basement with a cracked version of Fruity Loops software recording friends and mixing vocals, Riot City Studio is a place where you can feel at home. Whether you're recording your next single, demo, or full album, Riot City Studio has what you need to take your project to the next level.  
+         
+             <br>
+             <br>
+ 
+            Founded in 2012 by Adrian Saint and William Ross, Riot City Studio's main goal is to help local and regional, independent artists take their music from "Soundcloud good" to "radio ready". With that said, while our focus is on helping growing artists perfect their sound, we also have the equipment and knowledge at our disposal to record and produce major label artists. Basically stated; if you have a budget, we can accomodate.
+         </p>
+
+    <!--Studio Rooms-->
+        <section class="container">
+            <div class="card">
+                <div class="card-image room-1"></div>
+                <h2>Studio Room 1</h2>
+                <p>This room is perfect for voiceover recordings, single or dual vocals. We usually book this room for rappers, r&b singers, pop singers and anyone wanting to lay vocals over an animation or documentary.</p>
+            <div class="card">
+                <div class="card-image room-1"></div>
+                <h2>Studio Room 2</h2>
+                <p>This room is perfect for voiceover recordings, single or dual vocals. We usually book this room for rappers, r&b singers, pop singers and anyone wanting to lay vocals over an animation or documentary.</p>
+            </div>
+        </section>     
     </main>
     
     <footer>
