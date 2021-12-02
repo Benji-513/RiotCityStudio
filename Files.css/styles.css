@@ -76,6 +76,7 @@ h3{
 .container{
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
 .card{
@@ -114,6 +115,54 @@ h3{
     background-image: url(https://images.squarespace-cdn.com/content/v1/51f834afe4b0f0372666208e/1572502373821-7562APR0RBPGOTQ0Z1VI/June_Audio_full-8a.jpg?format=1000w);
 }
 
+/*Room price and book now button styles*/
+.columns {
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid rgb(221, 0, 0);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: rgb(221, 0, 0);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
 /*Footer design*/
 footer{
     bottom: 0;
