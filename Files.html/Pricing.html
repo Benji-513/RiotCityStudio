@@ -12,6 +12,49 @@
 </head>
 
 <body>
-    
+<section>
+    <div class="card">
+        <div class="card-image room-3"></div>
+        <h2>Studio Room 3</h2>
+        <p>This room is perfect for large bands, orchestras and choirs. The spacious studio room produces some great natural acoustics that really take a recording to the next level, while still having the ultimate control of a studio enviroment.</p>
+        
+        <h4 class="equipment-title">Equipment</h4>
+        <ul class="equipment-list">
+            <li>Mac Pro 2020</li>
+            <li>Control 24</li>
+            <li>UA 4-710d Mic Preamp (2)</li>
+            <li>Ableton Live 10</li>
+            <li>Logic Pro</li>
+            <li>Pro Tools Ultimate</li>
+        <span id="dots">...</span><span id="more">
+            <li>Neumann U87 (3)</li>
+            <li>Shure 57 (5)</li>
+            <li>Roland JP-8000</li>
+            <li>Yamaha Upright Piano</li>
+            <li>Prophet VS</li>
+            <li>Genelec 1037B</li>
+        </span>
+        </ul>
+    <button onclick="myFunction()" id="myBtn">Show More</button>
+    </div>
+</section>
+
+<script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Show more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Show less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
 </body>
 </html>

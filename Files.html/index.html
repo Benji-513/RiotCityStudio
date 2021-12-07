@@ -63,49 +63,147 @@
             <div class="card">
                 <div class="card-image room-1"></div>
                 <h2>Studio Room 1</h2>
-                <p>This room is perfect for voiceover recordings, single or dual vocals. We usually book this room for rappers, r&b singers, pop singers and anyone wanting to lay vocals over an animation or documentary.</p>
+                <p>This room is perfect for voiceover recordings, single or dual vocals. We usually book this room for rappers, r&b singers, pop singers and anyone wanting to lay vocals over an animation or documentary.</p>               
+                <h4 class="equipment-title">Equipment</h4>
+                <ul class="equipment-list">
+                    <li>Mac Pro 2020</li>
+                    <li>UAD Apollo x6</li>
+                    <li>UA LA-610 MKII</li>
+                    <li>Ableton Live 10</li>
+                    <li>Logic Pro</li>
+                    <li>Pro Tools Ultimate</li>
+                <span id="dots">...</span><span id="more">
+                    <li>Neumann TLM 103</li>
+                    <li>M-Audio Keystation 49</li>
+                    <li>Shure VP82</li>
+                    <li>Yamaha NS-10</li>
+                </span>
+                </ul>
+            <button onclick="myFunction()" id="myBtn">Show More</button>
             </div>    
         
             <div class="card">
                 <div class="card-image room-2"></div>
                 <h2>Studio Room 2</h2>
-                <p>This room is perfect for smaller bands, r&b and pop groups. The room comes with a varitey of instruments and equimpment necessary to achieve the sound you're looking for. </p>
+                <p>This room is perfect for smaller bands, r&b and pop groups. The room comes with a varitey of instruments and equimpment necessary to achieve the sound you're looking for, and the enviroment to inspire creativity. </p>
+                <h4 class="equipment-title">Equipment</h4>
+                <ul class="equipment-list">
+                    <li>Mac Pro 2020</li>
+                    <li>Control 24</li>
+                    <li>UA 4-710d Mic Preamp</li>
+                    <li>Ableton Live 10</li>
+                    <li>Logic Pro</li>
+                    <li>Pro Tools Ultimate</li>
+                <span id="dots">...</span><span id="more">
+                    <li>Neumann U87 (2)</li>
+                    <li>Shure 57 (3)</li>
+                    <li>Roland JP-8000</li>
+                    <li>Yamaha Upright Piano</li>
+                    <li>Prophet VS</li>
+                    <li>Genelec 1037B</li>
+                </span>
+                </ul>
+            <button onclick="myFunction()" id="myBtn">Show More</button>
             </div>  
                 
             <div class="card">
                 <div class="card-image room-3"></div>
                 <h2>Studio Room 3</h2>
                 <p>This room is perfect for large bands, orchestras and choirs. The spacious studio room produces some great natural acoustics that really take a recording to the next level, while still having the ultimate control of a studio enviroment.</p>
+                <h4 class="equipment-title">Equipment</h4>
+                <ul class="equipment-list">
+                    <li>Mac Pro 2020</li>
+                    <li>Control 24</li>
+                    <li>UA 4-710d Mic Preamp (2)</li>
+                    <li>Ableton Live 10</li>
+                    <li>Logic Pro</li>
+                    <li>Pro Tools Ultimate</li>
+                <span id="dots">...</span><span id="more">
+                    <li>Neumann U87 (3)</li>
+                    <li>Shure 57 (5)</li>
+                    <li>Roland JP-8000</li>
+                    <li>Yamaha Upright Piano</li>
+                    <li>Prophet VS</li>
+                    <li>Genelec 1037B</li>
+                </span>
+                </ul>
+            <button onclick="myFunction()" id="myBtn">Show More</button>
             </div>
         </section>
         
-        <!--Pricing and Equipment list for each room-->
+        <!--Pricing for each room-->
         <h3>Pricing</h3>
     <section class="container">
         <div class="columns">
             <ul class="price">
               <li class="header">Room 1</li>
               <li class="grey">$ 75 / hour</li>
-              <li class="grey"><a href="#" class="button">Book Now</a></li>
             </ul>
+            <p class="price-details">*This price does not include the services of one of our on-site engineers. To include that service would be an additional $50/hour. Also, bookings are for a minimum of 2 hours. There are discounts available for multiple session bookings. Please call or send us an email for more details.</p>
           </div>
 
           <div class="columns">
             <ul class="price">
               <li class="header">Room 2</li>
               <li class="grey">$ 100 / hour</li>
-              <li class="grey"><a href="#" class="button">Book Now</a></li>
             </ul>
+            <p class="price-details">*This price does not include the services of one of our on-site engineers. To include that service would be an additional $50/hour. Also, bookings are for a minimum of 2 hours. There are discounts available for multiple session bookings. Please call or send us an email for more details.</p>
           </div>
 
           <div class="columns">
             <ul class="price">
               <li class="header">Room 3</li>
               <li class="grey">$ 125 / hour</li>
-              <li class="grey"><a href="#" class="button">Book Now</a></li>
             </ul>
+            <p class="price-details">*This price does not include the services of one of our on-site engineers. To include that service would be an additional $50/hour. Also, bookings are for a minimum of 2 hours. There are discounts available for multiple session bookings. Please call or send us an email for more details.</p>
           </div>
     </section>
+
+    <h3>Contact form</h3>
+      <p class="contact-text">For any questions, or to book a session, please fill out the form below and we will get back to you as soon as possible.</p>  
+      <form name="myForm" onsubmit="return validateForm()" method="post">
+         <table class="form-style">
+            <tr>
+               <td>
+                  <label>
+                     Your name <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="text" name="name" class="long"/>
+                  <span class="error" id="errorname"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                    Your email address <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="email" name="email" class="long"/>
+                  <span class="error" id="erroremail"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Message <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <textarea name="message" class="long field-textarea"></textarea>
+                  <span class="error" id="errormsg"></span>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Send">       
+               </td>
+            </tr>
+         </table>
+      </form>
     </main>
     
     <footer>
@@ -119,6 +217,7 @@
                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             </ul>
         </div>
+        <div class="copyright-line">
         <div class="footer-bottom">
             <p>copyright &copy;2021 <a href="#">riotcitystudio</a>  </p>
         </div>
@@ -130,11 +229,88 @@
                <li><a href="">Pricing</a></li>
             </ul>
            </div>
-
+        </div>   
     </footer>
 
-<script src="./utilities.js"></script>
-<script src="./home.js"></script>
 
+<script>
+    /* Hamburger menu toggle links */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += "responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+  /* Show More/See less for equipment list */
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Show more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Show less";
+    moreText.style.display = "inline";
+  }
+}
+  /*Email validation*/
+function validateForm()                                    
+{ 
+    var name = document.forms["myForm"]["name"];               
+    var email = document.forms["myForm"]["email"];    
+    var message = document.forms["myForm"]["message"];   
+   
+    if (name.value == ""){ 
+        document.getElementById('errorname').innerHTML="Please enter a valid name";  
+        name.focus(); 
+        return false; 
+    }else{
+        document.getElementById('errorname').innerHTML="";  
+    }
+       
+    if (email.value == ""){                                   
+        document.getElementById('erroremail').innerHTML="Please enter a valid email address"; 
+        email.focus(); 
+        return false; 
+    }else{
+        document.getElementById('erroremail').innerHTML="";  
+    }
+   
+    if (email.value.indexOf("@", 0) < 0){ 
+        document.getElementById('erroremail').innerHTML="Please enter a valid email address"; 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0){ 
+        document.getElementById('erroremail').innerHTML="Please enter a valid email address"; 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (message.value == ""){
+        document.getElementById('errormsg').innerHTML="Please enter a valid message"; 
+        message.focus(); 
+        return false; 
+    }else{
+        document.getElementById('errormsg').innerHTML="";  
+    }
+   
+    return true; 
+    
+    .addEventListener("submit", myFunction);
+    
+    function myFunction() {
+        alert("Thank you for your interest in doing business with us!");
+    }
+}
+</script>
 </body>
 </html>
