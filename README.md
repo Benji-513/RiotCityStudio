@@ -1,1 +1,5 @@
 # RiotCityStudio
+
+This is a website I created to bring to life a vision once shared by myself and a few of my friends who made music. There a multiple elements on this site that utilize HTML, CSS and Javascript to make the site responsive and mobile friendly. For the header, I created a menu that shows entirely on desktop view, and turns into a hamburger menu when the screen size is less than 601px. I've also created cards that showcase the three different available studio rooms, and has a list that uses a show/hide feature using Javascript for the studio equipment lists. They also change their alignment based on screen size. When coding the footer, I added a menu that has the same links as the top navigation, but using a media queary they are hidden once the screen size is larger than 780px in order to make navigation a little easier for mobile users. 
+
+I learned so much while creating this project, and it will continue to be a project I come back to as I learn more in order to develop it more. 
